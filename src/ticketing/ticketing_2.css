@@ -1,0 +1,65 @@
+/* 예매내역 확인*/
+
+.box1 {
+    margin: 0 auto;
+    width: 1180px;
+    margin-top: 120px;
+}
+.box1-1 {
+    border: 1px solid; 
+    border-color: rgba(217, 217, 217, 1);
+    margin-top: 70px;
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 8px 0px #4643f496;
+    border-radius: 20px;
+}
+
+.confirmation .box1 h2 {
+    padding-top: 120px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.box2 {
+    margin-left: 90px;
+    margin-bottom: 30px;
+    width:1000px;
+    height: 400px; 
+}
+
+.box2 img {
+    margin-top:34px;
+    margin-left:47px;
+    float:left;
+}
+
+.box2 ul {
+    float:left;
+    margin-left: 50px;
+    margin-top: 100px;
+    
+
+}
+
+.box2 ul li {
+    font-size: 25px;
+}
+
+/* 
+.cf::after {
+    content:"";
+    display:block;
+    clear:both;
+} */
+.confirmation-btn {
+    margin-left: 1020px;
+    width: 70px;
+    height: 30px;
+    background: #8f86bb;
+    color: snow;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}

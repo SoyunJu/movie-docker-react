@@ -1,0 +1,27 @@
+/* 메뉴 상단 */
+.main-nav {background-color: #443C68;}
+.main-nav .container {width:1180px; height:100px; margin: 0 auto;position: relative;} 
+.navbar-brand img {position:absolute; height:140px; left: 515px; top:-20px;}
+.navbar {float:left; margin-right:180px; margin-top:57px;}
+.navbar-nav li {float:left; margin-right:47px; font-size:16px;}
+.navbar-nav li  {color:snow;}
+.nav-link {display:block;}
+.navbar-login {position:absolute; right:0; top:59px;}
+.navbar-login li{float:right; margin-left:20px; font-size:13px;}
+.navbar-login li  {color: snow;}
+.navbar-login li  button{color: snow;}
+
+/* 메인베너 이미지 포스터 */
+
+/* 푸터 하단 */
+footer {height:228px; background:#18122B;}
+footer .container {margin:0 auto; width:1180px; padding-top:65px;}
+footer .container::after {content:""; display:block; clear:both;}
+footer .left-footer {width:350px; float:left; color:snow;}
+footer .left-footer ul {padding-bottom:50px;}
+footer .left-footer li {float:left; margin-right:30px;}
+footer .left-footer li a {color:snow;}
+footer .left-footer li, footer .left-footer p, footer .left-footer strong  {font-size:12px;}
+footer .right-footer {float:right; margin-top:65px;}
+footer .right-footer div {font-size:13px; color:snow;}
+

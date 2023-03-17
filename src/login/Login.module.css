@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+/* 로그인 페이지 CSS */
+.login {width: 1180px; margin: 0 auto 194px;}
+.login h2 {font-size:45px; text-align: center; margin-top:70px; margin-bottom: 30px;  font-weight: 500; }
+.login .formSection {width: 620px; height:530px; border: 1px solid #dedede; margin: 0 auto; padding-left: 120px; padding-top:65px; box-sizing: border-box;}
+.login .formSection h3 {font-size: 18px;  font-weight: 600; margin-bottom:15px; }
+.login .formSection .signUp {font-size: 18px; font-weight:400; margin-left:150px; display:inline-block;
+    font-family: 'Hahmlet', sans-serif; color: #333; }
+.login .formSection .signUp:hover {color:#8f86bb; text-decoration: underline;}
+.login .formSection .userId {width:380px; height:50px; border-radius: 15px; font-size: 16px; padding-left:10px; border: 1px solid #dedede; box-sizing: border-box; margin-bottom:40px;}
+.login .formSection .userId:focus {box-shadow: 0px 0px 10px #4643f496;outline-style: none;
+}
+.login .formSection .userPassword {width:380px; height:50px; border-radius: 15px; font-size: 16px; padding-left:10px; border: 1px solid #dedede; box-sizing: border-box; margin-bottom:20px;}
+.login .formSection .userPassword:focus {box-shadow: 0px 0px 10px #4643f496;outline-style: none;
+}
+.login .formSection .loginBtn {margin-top:60px; width:380px; height:60px; background:#8f86bb; color: snow; font-size:18px; border-radius: 10px; font-family: 'Hahmlet', sans-serif; }

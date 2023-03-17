@@ -1,0 +1,41 @@
+version: '3.3'
+services:
+  movie-mysql:
+    image: soyunju/mysql:v1
+    ports:
+      - 4406:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=movie
+    volumes:
+      - /c/docker/movie_data/:/var/lib/mysql
+    restart: always
+
+
+  movie-spring:
+    depends_on:
+      - movie-mysql
+    image: soyunju/movie-springboot:v1
+    ports:
+      - 9999:8080
+    environment:
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+      - MOVIE_DB=movie
+      - MYSQL_PORT=3306
+      - MOVIE_IP=192.168.0.41
+    restart: always
+
+
+  board-react:
+    depends_on:
+      - movie-spring
+    build:
+      context: c:/javascript/movie_final/
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_IP=192.168.0.41
+        - REACT_APP_PORT=9999
+    ports:
+      - 80:80
+    restart: always

@@ -1,0 +1,10 @@
+.star {
+    transition: color 0.25s;
+    cursor: pointer;
+  }
+
+input[type="radio" i] {
+  display: none;
+}
+
+

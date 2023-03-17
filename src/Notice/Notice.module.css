@@ -1,0 +1,29 @@
+.contentContainer {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.contentContainer h2 {
+    margin-top:50px;
+    margin-bottom:30px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.contentContainer .announcementList {
+    width:100%;
+    border-top: 2px solid #8d80cb;
+    margin-bottom: 50px;
+}
+
+.contentContainer .announcementList tbody tr:first-child {border-top: 1px solid #8d80cb;}
+.contentContainer .announcementList tbody tr {border-top: 1px solid #8d80cb4f;}
+
+.contentContainer .announcementList tr th {font-size: 18px; font-weight:600; padding: 20px 0 ;}
+.contentContainer .announcementList tr td {font-size: 16px; padding: 20px 0 ;}
+
+.contentContainer .announcementList tbody tr .idx {text-align: center; width:10%;}
+.contentContainer .announcementList tbody tr .title {box-sizing: border-box; padding-left:20px;  }
+.contentContainer .announcementList tbody tr .date {text-align: center; width:10%;}
+

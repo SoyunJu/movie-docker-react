@@ -1,0 +1,50 @@
+/* 영화 및 시간선택 */
+.ticketing {
+    margin: 0 auto;
+    width: 1180px;
+    margin-bottom: 160px;
+}
+
+.ticketing h2 {
+    text-align: left;
+
+    font-size: 35px;
+    font-weight: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.ticketingBox {
+
+    border: 1px solid lightgray;
+    height: 500px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 8px 0px #4643f496;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.selectSeat-btn {
+    width: 80px;
+    height: 30px;
+    color: snow;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 1045px;  
+}
+.ticketmovie{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.output{
+    font-size:2em;
+    width:398px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

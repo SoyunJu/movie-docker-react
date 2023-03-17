@@ -1,0 +1,106 @@
+
+
+/* 메인베너 이미지 포스터 */
+.main-banner {background-image:url("/src/img/mainbg.jpg"); background-repeat: no-repeat; position:relative;}
+.main-banner .container {width:1180px; margin: 0 auto; position:relative;  }
+.main-banner .container .list3 {position: absolute; top:73px;right:0}
+.main-banner .container .list3 li {float:left;}
+.main-banner .container .list3 li::after {content:"ㅣ"; display:inline-block; color:snow;}
+.main-banner .container .list3 li:last-child:after {content:""; }
+.main-banner .container .list3 li a {color:snow; padding-left:25px; padding-right:25px;}
+.main-banner .container .movie-list li {width:380px; text-align : center; float:left; margin-right:20px; margin-bottom: 110px; margin-top: 140px;}
+.main-banner .container .movie-list li:last-child {margin-right:0;}
+.main-banner .container .movie-list li strong {display:block; padding-top:30px; padding-bottom:12px; color:snow;}
+.main-banner .container .movie-list li span {display:block; color:snow;}
+.main-banner .arrow button i {font-size:59px;color: snow;}
+.main-banner .arrow button .bi-chevron-right {position:absolute; top: 350px;right: 250px;}
+.main-banner .arrow button .bi-chevron-left {position:absolute; top: 350px; left:250px;}
+
+/* 현재 상영작 */
+.now-playing .container {width:1180px; margin: 0 auto; position:relative;}
+.now-playing .container h2 {margin-top:90px; margin-bottom:15px; font-size:20px; font-weight: 600;}
+.now-playing .container .now-list li {text-align: center; float:left; margin-right:20px;}
+.now-playing .container .now-list li:nth-child(4n) {margin-right:0}
+.now-playing .now-list li strong {display:block; padding-top:14px; margin-bottom:30px;}
+
+/* 공지사항 */
+.info-notice {margin-top:90px;}
+.info-notice .border {margin-top: 15px; margin-bottom: 50px; border: 1px solid #e2e2e2; border-width: 1px 0;
+}
+.info-notice h2 { margin-left:360px; font-size:20px; font-weight: 600;}
+.info-notice .wrap > p {height: 60px; line-height: 60px;}
+.info-notice .wrap {width: 1180px; position: relative; margin: 0 auto; }
+.info-notice .wrap .tit {position: absolute; left: 0; top: 0; color: #222; font-weight: 400;}
+.info-notice .wrap .link {position: relative; left: 80px;}
+.info-notice .wrap .link::before {content: ''; display: block; position: absolute; left: -20px; top: 50%; width: 1px; height: 14px; margin-top: -7px; background-color: #e2e2e2;}
+.info-notice .wrap .link a {overflow: hidden; display: inline-block; color: #222; max-width: 100%; white-space: nowrap; text-overflow: ellipsis;}
+.info-notice .wrap .link a strong {color: #01738b; font-weight: 600;}
+.info-notice .wrap .date {position: absolute; right: 85px; top: 0; color: #666; font-family: 'Roboto';}
+.info-notice .wrap .more {position: absolute; right: 0; top: 0; width: 70px; text-align: right; color: #222;}
+.info-notice .wrap .more::before {content: ''; display: block; position: absolute; left: 0; top: 50%; width: 1px; height: 14px; margin-top: -7px; background-color: #e2e2e2;}
+.info-notice .wrap .more .iconset {margin-top: -3px; margin-left: 5px;}
+
+/* Movedetail */
+.movedetail {position:relative; background-image: url("/src/img/detailbg.jpg"); background-repeat: no-repeat;}
+.movedetail .container {margin:0 auto; width:1180px; padding-top:50px;}
+.movedetail .container .movie-name h3 {font-size:40px; font-weight:600; color:snow; margin-bottom:20px;}
+.movedetail .container .movie-name strong {font-size:36px; font-weight:600; color:snow;}
+.movedetail .container .movie-name span {font-size:18px; color:snow;}
+.movedetail .container .movie-info {margin-top:110px; width:1180px; }
+.movedetail .container .movie-info::after {content: ""; display:block; clear:both}
+.movedetail .container .movie-left {float:left;}
+.movedetail .container .movie-right {float:left; margin-left:20px;margin-top:50px; width:800px;}
+.movedetail .container .movie-right span:first-child {display:block; color: snow; margin-bottom:60px;  }
+.movedetail .container .movie-right span:last-child {font-weight: 600;}
+.movedetail .container .movie-right span i {margin: 0 3px 0 10px; color:#FEF400; font-size:25px; }
+.movedetail .container .movie-right p {margin-top:40px;line-height: 1.5;}
+.movedetail .container .movie-right p b { font-weight: 600;}
+.detail-button {text-align: center; margin-top:50px;}
+.reservation-btn {color: snow;width:124px; height:40px; font-size:20px; background-color: #8F86B8; display:inline-block; text-align: center; line-height: 40px; border-radius: 10px; margin-right:30px;}
+.review-btn {color: snow; width:124px; height:40px; font-size:20px; background-color: #8F86B8; display:inline-block; text-align: center; line-height: 40px; border-radius: 10px;}
+
+/*  One line comment */
+.one-line-comment {position: relative;}
+.one-line-comment .container {margin:0 auto; width:1180px; padding-top:50px;  }
+.one-line-comment .container h3 {font-size:25px; font-weight: 600; margin-bottom: 21px; }
+.one-line-comment .container .review-write {margin: 0 auto; width:980px; height:310px;text-align:center; background:white; box-shadow: 0px 0px 10px #4643f496;outline-style: none; border-radius: 15px;}
+.one-line-comment .container .review-write h3 {font-size:18px; padding-top:30px; padding-bottom: 15px; }
+.one-line-comment .container .review-write .txt-nickName {width:800px; height:30px; box-sizing: border-box; padding-left: 20px; border-color: #bbbbbb; border-radius: 10px 0 0 0;float:left; margin-top: 30px; margin-left:30px; position:relative; top:30px; border:1px solid #bbbbbb; border-bottom: 0; }
+.one-line-comment .container .review-write .txt-comment {width:800px; height:60px; box-sizing: border-box; padding: 10px 20px; border-color: #bbbbbb; border-radius: 0 0 0 10px;float:left; margin-left:30px; margin-top: 30px;  overflow: hidden;}
+.one-line-comment .container .review-write .btn-submit {width:120px;height:90px; background:#414141; color:snow; float:left; border-radius: 0 10px 10px 0; font-weight:600}
+
+.one-line-list {width:980px; margin: 30px auto 150px; }
+.line-list li {border-top: 1px solid #eee; padding: 20px 0 15px 68px; position:relative;}
+.line-list li:first-child {border-top: 1px solid #ccc;}
+
+
+.line-list li .whatname {display:block; padding-bottom:8px; font-size:14px; float:left; margin-right: 60px; color: rgb(0, 0, 0);}
+
+
+.line-list li .review-info {display:block; font-size:13px}
+/* .line-list li .commentsStar {position:absolute; right:10px; top:20px; font-size:14px; color:#999;} */
+
+
+.star-hover svg:hover {
+    color: yellow;
+    
+}
+
+
+.a {
+    margin-left: 120px;
+}
+
+.commentsStar {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    display:block; 
+    padding-bottom:8px; 
+    font-size:14px;
+    
+}
+
+div.review_info {
+    text-align: left;
+}
+

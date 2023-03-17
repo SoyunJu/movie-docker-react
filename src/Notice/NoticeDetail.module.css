@@ -1,0 +1,42 @@
+.contentContainer {
+    width:1180px;
+    height: 600px;
+    margin: 50px auto 30px;
+    border-bottom: 1px solid grey;
+}
+
+.contentContainer h2 {
+    padding-top:20px;
+    padding-left: 30px;
+    border-top:3px solid #8d80cb;
+    font-size: 24px;
+}
+
+.contentContainer em {
+    display: block;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    /* padding-left: 30px; */
+    text-indent: 2em;
+    font-size: 14px;
+    color: #666;
+}
+
+.contentContainer em::after {
+    content:"";
+    display:block;
+    width:100%;
+    height: 1px;
+    background-color: #333;
+    margin-top: 30px;
+}
+
+.contentContainer p {
+    padding: 0 100px 0 50px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.btn {
+    display:block; margin: 0 auto 30px; width:80px; height:40px; text-align:center; line-height: 40px; background:#8f86bb; color: snow; font-size:18px; border-radius: 10px;
+}

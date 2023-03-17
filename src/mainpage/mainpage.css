@@ -1,0 +1,51 @@
+.main-banner {background-color: snow; position:relative;}
+.main-banner .container {width:1180px; margin: 0 auto; position:relative;  }
+.main-banner .container .list4 {position: absolute; top:73px;right:0; z-index: 100;}
+.main-banner .container .list4 li {float:left; }
+.main-banner .container .list4 li::after {content:"ㅣ"; display:inline-block; color:snow;}
+.main-banner .container .list4 li:last-child:after {content:""; }
+.main-banner .container .list4 li button {color:snow; padding-left:25px; padding-right:25px;}
+.main-banner .container .movie-list .listli {width:380px; text-align : center; float:left; margin-right:20px; margin-bottom: 110px; margin-top: 140px;}
+.main-banner .container .movie-list .listli:last-child {margin-right:0;}
+.main-banner .container .movie-list .listli strong {display:block; padding-top:30px; padding-bottom:12px; color:snow;}
+.main-banner .container .movie-list .listli span {display:block; color:snow;}
+.main-banner .arrow button i {font-size:59px;color: snow;}
+.main-banner .arrow button .bi-chevron-right {position:absolute; top: 350px;right: 250px;}
+.main-banner .arrow button .bi-chevron-left {position:absolute; top: 350px; left:250px;}
+.img1 {width: 380px; height:587px;}
+/* 현재 상영작 */
+.now-playing .container {width:1180px; margin: 0 auto; position:relative;}
+.now-playing .container h2 {margin-top:90px; margin-bottom:15px; font-size:20px; font-weight: 600;}
+.now-playing .container .now-list li {text-align: center; float:left; margin-right:20px;}
+.now-playing .container .now-list li:nth-child(4n) {margin-right:0}
+.now-playing .now-list li strong {display:block; padding-top:14px; margin-bottom:30px;}
+.img2 {width: 280px; height:408px;     object-fit: cover;}
+/* 공지사항 */
+.info-notice {margin-top:90px;}
+.info-notice .border {margin-top: 15px; margin-bottom: 50px; border: 1px solid #e2e2e2; border-width: 1px 0;
+}
+.info-notice h2 { margin-left:360px; font-size:20px; font-weight: 600;}
+.info-notice .wrap > p {height: 60px; line-height: 60px;}
+.info-notice .wrap {width: 1180px; position: relative; margin: 0 auto; }
+.info-notice .wrap .tit {position: absolute; left: 0; top: 0; color: #222; font-weight: 400;}
+.info-notice .wrap .link {position: relative; left: 80px;}
+.info-notice .wrap .link::before {content: ''; display: block; position: absolute; left: -20px; top: 50%; width: 1px; height: 14px; margin-top: -7px; background-color: #e2e2e2;}
+.info-notice .wrap .link a {overflow: hidden; display: inline-block; color: #222; max-width: 100%; white-space: nowrap; text-overflow: ellipsis;}
+.info-notice .wrap .link a strong {color: #01738b; font-weight: 600;}
+.info-notice .wrap .date {position: absolute; right: 85px; top: 0; color: #666; font-family: 'Roboto';}
+.info-notice .wrap .more {position: absolute; right: 0; top: 0; width: 70px; text-align: right; color: #222;}
+.info-notice .wrap .more::before {content: ''; display: block; position: absolute; left: 0; top: 50%; width: 1px; height: 14px; margin-top: -7px; background-color: #e2e2e2;}
+.info-notice .wrap .more .iconset {margin-top: -3px; margin-left: 5px;}
+
+
+.swiper-button-prev,
+.swiper-button-next { color: white }
+
+
+
+
+
+
+
+
+

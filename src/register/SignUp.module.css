@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+/* 회원가입 페이지 CSS */
+.signup {width: 1180px; margin: 0 auto 194px;}
+.signup h2 {font-size:45px; text-align: center; margin-top:70px; margin-bottom: 30px;  font-weight: 600; }
+.signup h4 {font-size:18px; text-align: center; margin-top:50px; margin-bottom: 50px;  font-weight: 600; }
+.signup .formSection { width: 800px; margin: 0 auto;}
+.signup .formSection h3 {font-size: 18px; margin-bottom:15px; font-family: 'Hahmlet', sans-serif;}
+.signup .formSection input {width:380px; height:50px; border-radius: 15px; font-size: 16px; padding-left:10px; border: 1px solid #dedede; box-sizing: border-box; margin-bottom:30px;}
+.signup .formSection input:focus {box-shadow: 0px 0px 10px #4643f496;outline-style: none;
+}
+/* .signup .form-section .userPassword {width:380px; height:50px; border-radius: 15px; font-size: 16px; padding-left:10px; border: 1px solid #dedede; box-sizing: border-box; margin-bottom:30px;} */
+/* .signup .form-section .userPassword:focus {box-shadow: 0px 0px 10px #4643f496;outline-style: none;
+} */
+.signup .formSection .signBtn {margin-top:43px; margin-left:200px; width:380px; height:60px; background:#8f86bb; color: snow; font-size:18px; border-radius: 10px; font-family: 'Hahmlet', sans-serif; }
+
+.cf::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.floatLeft{
+    float:left;
+}
+.floatRight{
+    float:right;
+}
+.input {width:380px; height: 133px;}
+.loginInputPwc div {margin-top:-20px; margin-left:10px;}
+
+.loginInputPh div {margin-top:-20px; margin-left:10px;}
+
+.loginInputEmail div {margin-top:-20px; margin-left:10px;}
+

@@ -1,0 +1,96 @@
+/* 좌석 예매 페이지 */
+.selectSeating {
+    margin: 0 auto;
+    width: 1180px;
+    margin-bottom: 160px;
+}
+
+.selectSeating h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+.screenBox {
+    border: 1px dashed;
+    width: 70%;
+    height: 40px;
+    margin: auto;
+}
+
+.screenBox h3 {
+    text-align: center;
+    font-weight: 200px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.seatingIcon {
+    position:relative;
+    line-height: 120px;
+    margin-top: 70px;
+    /* columns: 80px; */
+
+    margin-left: 357px; 
+}
+
+.seatingIcon .aCol {
+    position:absolute;
+    left: -70px;
+    top: -20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.seatingIcon .bCol {
+    position:absolute;
+    left: -70px;
+    top: 95px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button-group {
+    position: absolute;
+    right : 20%;
+}
+
+.selectSeating-btn {
+    width: 70px;
+    height: 30px;
+    background: #8f86bb;
+    color: snow;
+    font-size: 16px;
+    border-radius: 10px;    
+    margin-left: 20px;
+    display: inline-block;
+}
+.clear-btn {
+    width: 70px;
+    height: 30px;
+    background: #8f86bb;
+    color: snow;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+/* .seat.selected {
+    color: rgb(255, 168, 197);   
+}
+
+.seat.occupied {
+    color: rgb(255, 0, 0);   
+} */
+
+.seat{
+    margin-left: 60px;
+
+}
+
+.seat1{
+    margin-left:0;
+}

@@ -1,0 +1,17 @@
+.container {width:1180px; margin: 0 auto; }
+
+.reviewDetail {margin-top: 100px; width:100%}
+.reviewDetail tbody {box-shadow: 0px 0px 10px #4643f496;outline-style: none; border-radius: 15px;}
+.reviewDetail tr, .reviewDetail th, .reviewDetail td {box-sizing: border-box; padding:20px 0; }
+
+.reviewDetail th {border-bottom: 2px solid #4643f431; font-size: 20px; font-weight: 600; }
+.reviewDetail .borderRight {
+    border-right: 2px solid #4643f431;
+}
+.reviewDetail td {text-align:center; font-size: 18px;}
+.reviewDetail .contentText {text-align:left; height: 600px; padding: 80px;    }
+
+.btnBox {text-align: center;}
+
+.btnLink {display: inline-block;  margin:60px 10px; width:150px; height:60px; background:#8f86bb; color: snow; font-size:16px; border-radius: 10px; font-family: 'Hahmlet', sans-serif; border:none; line-height:60px;}
+.btn {display: inline-block; margin:60px 10px; width:150px; height:60px; background:#8f86bb; color: snow; font-size:16px; border-radius: 10px; font-family: 'Hahmlet', sans-serif; border:none;}
