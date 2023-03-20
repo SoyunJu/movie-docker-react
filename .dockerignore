@@ -3,4 +3,5 @@ Dockerfile
 package-lock.json
 *.md
 build
+.env
 .node_modules
